@@ -1,0 +1,26 @@
+name: Daily prices
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download today's prices
+        run: |
+          curl -fsSL https://www.promptunit.ai/ai-api-pricing/prices.json -o new.json
+          python3 -c "import json; d=json.load(open('new.json')); assert len(d['models']) > 20, 'too few models'"
+          python3 -c "import json; d=json.load(open('new.json')); json.dump(d, open('prices.json','w'), indent=2)"
+          cp prices.json "history/$(date -u +%F).json"
+          rm new.json
+      - name: Save
+        run: |
+          git config user.name "promptunit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add prices.json history
+          git diff --cached --quiet || git commit -m "Prices $(date -u +%F)"
+          git push
