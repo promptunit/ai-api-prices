@@ -2,7 +2,7 @@
   "source": "https://www.promptunit.ai/ai-api-pricing",
   "description": "AI API prices read once a day from each vendor's own pricing page. USD per 1 million tokens.",
   "license": "CC BY 4.0, credit PromptUnit (https://www.promptunit.ai/ai-api-pricing)",
-  "checkedAt": "2026-10-29T19:14:38.570Z",
+  "checkedAt": "2026-10-30T07:51:24.872Z",
   "vendorsNotRead": [],
   "vendors": {
     "openai": {
@@ -419,20 +419,6 @@
     },
     {
       "vendor": "openai",
-      "apiId": "gpt-4.1-nano",
-      "name": "GPT-4.1 nano",
-      "input": 0.1,
-      "output": 0.4,
-      "cachedInput": 0.025,
-      "cacheWrite": null,
-      "longPrompt": null,
-      "notes": [],
-      "contextWindow": 1047576,
-      "releasedAt": "2025-04-14",
-      "page": "https://www.promptunit.ai/ai-api-pricing/gpt-4-1-nano"
-    },
-    {
-      "vendor": "openai",
       "apiId": "gpt-4o",
       "name": "GPT-4o",
       "input": 2.5,
@@ -461,34 +447,6 @@
     },
     {
       "vendor": "openai",
-      "apiId": "o1",
-      "name": "o1",
-      "input": 15,
-      "output": 60,
-      "cachedInput": 7.5,
-      "cacheWrite": null,
-      "longPrompt": null,
-      "notes": [],
-      "contextWindow": null,
-      "releasedAt": null,
-      "page": "https://www.promptunit.ai/ai-api-pricing/o1"
-    },
-    {
-      "vendor": "openai",
-      "apiId": "o1-pro",
-      "name": "o1-pro",
-      "input": 150,
-      "output": 600,
-      "cachedInput": null,
-      "cacheWrite": null,
-      "longPrompt": null,
-      "notes": [],
-      "contextWindow": null,
-      "releasedAt": null,
-      "page": "https://www.promptunit.ai/ai-api-pricing/o1-pro"
-    },
-    {
-      "vendor": "openai",
       "apiId": "o3-pro",
       "name": "o3-pro",
       "input": 20,
@@ -514,34 +472,6 @@
       "contextWindow": 200000,
       "releasedAt": "2025-04-16",
       "page": "https://www.promptunit.ai/ai-api-pricing/o3"
-    },
-    {
-      "vendor": "openai",
-      "apiId": "o4-mini",
-      "name": "o4-mini",
-      "input": 1.1,
-      "output": 4.4,
-      "cachedInput": 0.275,
-      "cacheWrite": null,
-      "longPrompt": null,
-      "notes": [],
-      "contextWindow": null,
-      "releasedAt": null,
-      "page": "https://www.promptunit.ai/ai-api-pricing/o4-mini"
-    },
-    {
-      "vendor": "openai",
-      "apiId": "o3-mini",
-      "name": "o3-mini",
-      "input": 1.1,
-      "output": 4.4,
-      "cachedInput": 0.55,
-      "cacheWrite": null,
-      "longPrompt": null,
-      "notes": [],
-      "contextWindow": null,
-      "releasedAt": null,
-      "page": "https://www.promptunit.ai/ai-api-pricing/o3-mini"
     },
     {
       "vendor": "anthropic",
