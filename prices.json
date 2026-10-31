@@ -2,7 +2,7 @@
   "source": "https://www.promptunit.ai/ai-api-pricing",
   "description": "AI API prices read once a day from each vendor's own pricing page. USD per 1 million tokens.",
   "license": "CC BY 4.0, credit PromptUnit (https://www.promptunit.ai/ai-api-pricing)",
-  "checkedAt": "2026-10-30T07:51:24.872Z",
+  "checkedAt": "2026-10-31T06:35:43.314Z",
   "vendorsNotRead": [],
   "vendors": {
     "openai": {
