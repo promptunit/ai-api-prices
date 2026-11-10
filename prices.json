@@ -2,7 +2,7 @@
   "source": "https://www.promptunit.ai/ai-api-pricing",
   "description": "AI API prices read once a day from each vendor's own pricing page. USD per 1 million tokens.",
   "license": "CC BY 4.0, credit PromptUnit (https://www.promptunit.ai/ai-api-pricing)",
-  "checkedAt": "2026-11-08T17:34:59.875Z",
+  "checkedAt": "2026-11-10T05:54:15.237Z",
   "vendorsNotRead": [
     "google"
   ],
@@ -474,6 +474,22 @@
       "contextWindow": 200000,
       "releasedAt": "2025-04-16",
       "page": "https://www.promptunit.ai/ai-api-pricing/o3"
+    },
+    {
+      "vendor": "anthropic",
+      "apiId": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "input": 8,
+      "output": 40,
+      "cachedInput": 0.2,
+      "cacheWrite": 10,
+      "longPrompt": null,
+      "notes": [
+        "Counts about 30% more tokens for the same text than Claude models before 4.7, so the same request uses more tokens (Anthropic's pricing page)."
+      ],
+      "contextWindow": 1000000,
+      "releasedAt": "2026-11-09",
+      "page": "https://www.promptunit.ai/ai-api-pricing/claude-fable-5-2"
     },
     {
       "vendor": "anthropic",
