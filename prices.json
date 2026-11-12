@@ -2,10 +2,8 @@
   "source": "https://www.promptunit.ai/ai-api-pricing",
   "description": "AI API prices read once a day from each vendor's own pricing page. USD per 1 million tokens.",
   "license": "CC BY 4.0, credit PromptUnit (https://www.promptunit.ai/ai-api-pricing)",
-  "checkedAt": "2026-11-11T05:58:42.992Z",
-  "vendorsNotRead": [
-    "google"
-  ],
+  "checkedAt": "2026-11-12T12:57:58.956Z",
+  "vendorsNotRead": [],
   "vendors": {
     "openai": {
       "name": "OpenAI",
@@ -710,6 +708,184 @@
       "contextWindow": 200000,
       "releasedAt": "2025-10-15",
       "page": "https://www.promptunit.ai/ai-api-pricing/claude-haiku-4-5"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "input": 2,
+      "output": 10,
+      "cachedInput": 0.1,
+      "cacheWrite": null,
+      "longPrompt": null,
+      "notes": [
+        "Input: $2.00 per 1M tokens through November 30, 2026, then $4.00 from December 1, 2026.",
+        "Output: $10.00 per 1M tokens through November 30, 2026, then $20.00 from December 1, 2026."
+      ],
+      "contextWindow": 1048576,
+      "releasedAt": "2026-11-10",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-4-carbon"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "input": 2,
+      "output": 10,
+      "cachedInput": 0.1,
+      "cacheWrite": null,
+      "longPrompt": null,
+      "notes": [
+        "Input: $2.00 per 1M tokens through November 30, 2026, then $4.00 from December 1, 2026.",
+        "Output: $10.00 per 1M tokens through November 30, 2026, then $20.00 from December 1, 2026."
+      ],
+      "contextWindow": 1048576,
+      "releasedAt": "2026-10-13",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-4-argon"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "input": 0.75,
+      "output": 3.75,
+      "cachedInput": 0.075,
+      "cacheWrite": null,
+      "longPrompt": null,
+      "notes": [
+        "Input: $0.75 per 1M tokens through December 31, 2026, then $1.50 from January 1, 2027.",
+        "Output: $3.75 per 1M tokens through December 31, 2026, then $7.50 from January 1, 2027."
+      ],
+      "contextWindow": 1048576,
+      "releasedAt": "2026-09-02",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-3-8-flash"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-3.6-flash",
+      "name": "Gemini 3.6 Flash",
+      "input": 0.75,
+      "output": 3.75,
+      "cachedInput": 0.075,
+      "cacheWrite": null,
+      "longPrompt": null,
+      "notes": [
+        "Input: $0.75 per 1M tokens through December 31, 2026, then $1.50 from January 1, 2027.",
+        "Output: $3.75 per 1M tokens through December 31, 2026, then $7.50 from January 1, 2027."
+      ],
+      "contextWindow": 1048576,
+      "releasedAt": "2026-07-21",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-3-6-flash"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-3.5-flash-lite",
+      "name": "Gemini 3.5 Flash-Lite",
+      "input": 0.3,
+      "output": 2.5,
+      "cachedInput": 0.03,
+      "cacheWrite": null,
+      "longPrompt": null,
+      "notes": [],
+      "contextWindow": 1048576,
+      "releasedAt": "2026-07-21",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-3-5-flash-lite"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-3.1-flash-lite",
+      "name": "Gemini 3.1 Flash-Lite",
+      "input": 0.25,
+      "output": 1.5,
+      "cachedInput": 0.025,
+      "cacheWrite": null,
+      "longPrompt": null,
+      "notes": [],
+      "contextWindow": 1048576,
+      "releasedAt": "2026-05-07",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-3-1-flash-lite"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-3.1-pro-preview",
+      "name": "Gemini 3.1 Pro Preview",
+      "input": 2,
+      "output": 12,
+      "cachedInput": 0.2,
+      "cacheWrite": null,
+      "longPrompt": {
+        "input": 4,
+        "output": 18,
+        "cachedInput": 0.4,
+        "cacheWrite": null,
+        "overTokens": 200000
+      },
+      "notes": [],
+      "contextWindow": 1048576,
+      "releasedAt": "2026-02-19",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-3-1-pro-preview"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-3-flash-preview",
+      "name": "Gemini 3 Flash Preview",
+      "input": 0.5,
+      "output": 3,
+      "cachedInput": 0.05,
+      "cacheWrite": null,
+      "longPrompt": null,
+      "notes": [],
+      "contextWindow": 1048576,
+      "releasedAt": "2025-12-17",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-3-flash-preview"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
+      "input": 1.25,
+      "output": 10,
+      "cachedInput": 0.125,
+      "cacheWrite": null,
+      "longPrompt": {
+        "input": 2.5,
+        "output": 15,
+        "cachedInput": 0.25,
+        "cacheWrite": null,
+        "overTokens": 200000
+      },
+      "notes": [],
+      "contextWindow": 1048576,
+      "releasedAt": "2025-06-17",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-2-5-pro"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
+      "input": 0.3,
+      "output": 2.5,
+      "cachedInput": 0.03,
+      "cacheWrite": null,
+      "longPrompt": null,
+      "notes": [],
+      "contextWindow": 1048576,
+      "releasedAt": "2025-06-17",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-2-5-flash"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-2.5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "input": 0.1,
+      "output": 0.4,
+      "cachedInput": 0.01,
+      "cacheWrite": null,
+      "longPrompt": null,
+      "notes": [],
+      "contextWindow": 1048576,
+      "releasedAt": "2025-07-22",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-2-5-flash-lite"
     },
     {
       "vendor": "xai",
