@@ -2,7 +2,7 @@
   "source": "https://www.promptunit.ai/ai-api-pricing",
   "description": "AI API prices read once a day from each vendor's own pricing page. USD per 1 million tokens.",
   "license": "CC BY 4.0, credit PromptUnit (https://www.promptunit.ai/ai-api-pricing)",
-  "checkedAt": "2026-11-12T12:57:58.956Z",
+  "checkedAt": "2026-11-13T14:11:06.545Z",
   "vendorsNotRead": [],
   "vendors": {
     "openai": {
@@ -742,6 +742,20 @@
       "contextWindow": 1048576,
       "releasedAt": "2026-10-13",
       "page": "https://www.promptunit.ai/ai-api-pricing/gemini-4-argon"
+    },
+    {
+      "vendor": "google",
+      "apiId": "gemini-4-hydrogen",
+      "name": "Gemini 4 Hydrogen",
+      "input": 1.5,
+      "output": 7.5,
+      "cachedInput": 0.075,
+      "cacheWrite": null,
+      "longPrompt": null,
+      "notes": [],
+      "contextWindow": 1048576,
+      "releasedAt": "2026-11-12",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gemini-4-hydrogen"
     },
     {
       "vendor": "google",
