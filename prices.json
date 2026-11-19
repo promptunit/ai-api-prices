@@ -2,7 +2,7 @@
   "source": "https://www.promptunit.ai/ai-api-pricing",
   "description": "AI API prices read once a day from each vendor's own pricing page. USD per 1 million tokens.",
   "license": "CC BY 4.0, credit PromptUnit (https://www.promptunit.ai/ai-api-pricing)",
-  "checkedAt": "2026-11-17T16:19:01.045Z",
+  "checkedAt": "2026-11-18T21:19:51.286Z",
   "vendorsNotRead": [],
   "vendors": {
     "openai": {
@@ -23,6 +23,46 @@
     }
   },
   "models": [
+    {
+      "vendor": "openai",
+      "apiId": "gpt-6.2-astra",
+      "name": "GPT-6.2 Astra",
+      "input": 8,
+      "output": 40,
+      "cachedInput": 0.4,
+      "cacheWrite": 10,
+      "longPrompt": {
+        "input": 16,
+        "output": 60,
+        "cachedInput": 0.8,
+        "cacheWrite": 20,
+        "overTokens": null
+      },
+      "notes": [],
+      "contextWindow": 1050000,
+      "releasedAt": "2026-11-17",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gpt-6-2-astra"
+    },
+    {
+      "vendor": "openai",
+      "apiId": "gpt-6.2-sol",
+      "name": "GPT-6.2 Sol",
+      "input": 2,
+      "output": 10,
+      "cachedInput": 0.1,
+      "cacheWrite": 2.5,
+      "longPrompt": {
+        "input": 4,
+        "output": 15,
+        "cachedInput": 0.2,
+        "cacheWrite": 5,
+        "overTokens": null
+      },
+      "notes": [],
+      "contextWindow": 1050000,
+      "releasedAt": "2026-11-17",
+      "page": "https://www.promptunit.ai/ai-api-pricing/gpt-6-2-sol"
+    },
     {
       "vendor": "openai",
       "apiId": "gpt-6-astra",
