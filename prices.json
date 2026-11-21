@@ -2,7 +2,7 @@
   "source": "https://www.promptunit.ai/ai-api-pricing",
   "description": "AI API prices read once a day from each vendor's own pricing page. USD per 1 million tokens.",
   "license": "CC BY 4.0, credit PromptUnit (https://www.promptunit.ai/ai-api-pricing)",
-  "checkedAt": "2026-11-20T09:46:26.739Z",
+  "checkedAt": "2026-11-21T12:24:25.455Z",
   "vendorsNotRead": [],
   "vendors": {
     "openai": {
@@ -1034,6 +1034,26 @@
       "contextWindow": 1000000,
       "releasedAt": "2026-04-30",
       "page": "https://www.promptunit.ai/ai-api-pricing/grok-4-3"
+    },
+    {
+      "vendor": "xai",
+      "apiId": "grok-build-0.1",
+      "name": "Grok Build 0.1",
+      "input": 1,
+      "output": 2,
+      "cachedInput": 0.2,
+      "cacheWrite": null,
+      "longPrompt": {
+        "input": 2,
+        "output": 4,
+        "cachedInput": 0.4,
+        "cacheWrite": null,
+        "overTokens": 200000
+      },
+      "notes": [],
+      "contextWindow": 500000,
+      "releasedAt": null,
+      "page": "https://www.promptunit.ai/ai-api-pricing/grok-build-0-1"
     }
   ]
 }
